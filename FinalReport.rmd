@@ -47,6 +47,48 @@ Through this investigation, we can gain insights into the potential impact of th
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question. Bottom line is to explain the features of the graph that are relevant to conforming or departing to what is expected by your null hypothesis !-->
 
+```{r}
+barchartGC(~infected + treatment,data=charlie)
+barchartGC(~infected + treatment,data=charlie, type="percent")
+
+```
+```{r}
+library(ggplot2)
+
+# Calculate percentage of each treatment group
+percentage <- prop.table(table(charlie$treatment)) * 100
+
+# Create a data frame with treatment and percentage
+df_percentage <- data.frame(treatment = names(percentage), percentage = percentage)
+
+# Bar chart for "infected" variable
+chart_infected <- ggplot(charlie, aes(x = infected, fill = treatment)) +
+  geom_bar(position = "dodge", color = "black") +
+  labs(x = "Infected", y = "Count") +
+  ggtitle("Bar Chart of Infected and Treatment") +
+  scale_fill_manual(values = c("drug" = "blue", "placebo" = "red")) +
+  theme(legend.position = "bottom") +
+  theme(plot.title = element_text(size = 12)) # Adjust title size
+
+# Bar chart for "treatment" variable (percentage)
+chart_percentage <- ggplot(df_percentage, aes(x = treatment, y = percentage, fill = treatment)) +
+  geom_bar(position = "dodge", color = "black", stat = "identity") +
+  labs(x = "Treatment", y = "Percentage") +
+  ggtitle("Bar Chart of Treatment (Percentage)") +
+  scale_fill_manual(values = c("drug" = "blue", "placebo" = "red")) +
+  theme(legend.position = "bottom") +
+  theme(plot.title = element_text(size = 12)) # Adjust title size
+
+# Combine charts side by side
+library(gridExtra)
+grid.arrange(chart_infected, chart_percentage, nrow = 1)
+
+
+```
+
+
+This study provides strong evidence of the drug's efficacy as demonstrated by the comparative infection rates among individuals who received the placebo and those who received the drug. Notably, the placebo group exhibited a significantly higher infection rate of approximately 80%, whereas the group receiving the drug had a considerably lower infection rate of approximately 25%. Moreover, when comparing the infection rates of individuals who did not contract AIDS despite taking either the drug or placebo, a clear distinction emerges, further supporting the drug's effectiveness. This is done through a visual analyse of the data using bar charts.
+
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
