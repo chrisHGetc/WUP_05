@@ -10,6 +10,16 @@ require(tidyverse)
 require(tigerstats)
 triUmp <-read.csv(file="triUmpsal.csv",header=TRUE)
 ```
+```{r}
+charlie<-filter(triUmp, DrugUser=="yes") 
+```
+```{r eval=FALSE}
+charlie <- charlie %>%
+mutate(across(where(is.character), as.factor))
+```
+
+
+
 
 # Introduction
 
