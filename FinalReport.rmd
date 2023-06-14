@@ -27,6 +27,12 @@ mutate(across(where(is.character), as.factor))
 
 A new  preventative aides drug (triUmpsal) is under test in clinical trials. Consider only the DrugUsers, does this drug seem effective?  Hint - use dplyr to obtain that subpopulation with the filter command.
 
+Clinical trials are a crucial step in determining the safety and efficacy of new drugs before they are approved for widespread use. In this particular scenario, a new preventive AIDS drug called triUmpsal is being tested in clinical trials. The focus of interest lies in evaluating the effectiveness of the drug specifically among the population of DrugUsers. This subset of individuals is of particular importance as they are more likely to benefit from preventive interventions due to their higher risk of HIV transmission.
+
+To assess the effectiveness of the triUmpsal drug among DrugUsers, we can utilize the power of data analysis using tools like R and the dplyr package. By applying filtering techniques provided by dplyr, we can isolate the DrugUsers subset from the larger population and examine their response to the drug. This analysis aims to determine whether there is evidence to suggest that the triUmpsal drug is effective in reducing the incidence of HIV transmission among DrugUsers.
+
+Through this investigation, we can gain insights into the potential impact of the triUmpsal drug on the specific target population and contribute valuable information to inform future decisions regarding its development and deployment. The findings may provide evidence for the effectiveness of the drug and guide further research or implementation strategies to combat the spread of HIV among DrugUsers, thereby offering hope for improved prevention measures and better healthcare outcomes.
+
 # Methods
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method. Discuss what data manipulations may be needed for example subsetting or other binning procedures and what sort of graphical displays and inferential tools will be used!-->
