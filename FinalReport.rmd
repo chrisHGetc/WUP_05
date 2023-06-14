@@ -116,3 +116,19 @@ There is a substantial statistical difference indicated by a p-value of 1.242 in
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+Based on the collected data, the triUmpsal drug shows a clear efficacy among DrugUsers. Comparing the infection rates between the drug and placebo groups reveals a significant difference. Among the DrugUsers who took the drug, the infection rate was approximately 25%, while the placebo group had a considerably higher infection rate of around 80%.
+
+Furthermore, when examining the non-infected individuals, a higher percentage (97%) of those who took the drug remained uninfected compared to those who received the placebo (92%). These results strongly indicate that the triUmpsal drug plays a vital role in reducing the incidence of HIV transmission among DrugUsers.
+
+To enhance data analysis and visualization, bar charts can be utilized to provide a clearer depiction of the infection rates and highlight the notable disparities between the drug and placebo groups. These findings not only demonstrate the drug's efficacy but also suggest its potential to significantly contribute to the prevention of HIV transmission among DrugUsers.
+
+Additionally, a p-value of 1.242 reveals a substantial statistical difference in the numerical breakdown of the data, further supporting the conclusion that the drug has a significant impact on the measured outcomes.
+
+
+
+
+
+
+
+
+
