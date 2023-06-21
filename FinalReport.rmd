@@ -37,6 +37,8 @@ Through this investigation, we can gain insights into the potential impact of th
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method. Discuss what data manipulations may be needed for example subsetting or other binning procedures and what sort of graphical displays and inferential tools will be used!-->
 
+The purpose of the present study is to investigate the potential efficacy of TriUmpsal as a drug for preventing AIDS. To facilitate this analysis, a box plot will be utilized as a visual tool to explore any potential relationship between the use of the drug TriUmpsal and a placebo as the control in preventing aids. Additionally, numerical data and inferential techniques will be employed to further analyze and interpret the findings, aiming to determine if TriUmpsal exhibits any correlation with AIDS prevention.
+
 # Results
 
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
@@ -111,7 +113,7 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
-There is a substantial statistical difference indicated by a p-value of 1.242 in the numerical breakdown of the data regarding the use of the drug. This suggests that the drug has a significant impact on the outcomes being measured.
+There is a substantial statistical difference indicated by a p-value of .0000001242 in the numerical breakdown of the data regarding the use of the drug. This suggests that the drug has a significant impact on the outcomes being measured.
 
 # Discussion and Conclusion
 
@@ -122,7 +124,7 @@ Furthermore, when examining the non-infected individuals, a higher percentage (9
 
 To enhance data analysis and visualization, bar charts can be utilized to provide a clearer depiction of the infection rates and highlight the notable disparities between the drug and placebo groups. These findings not only demonstrate the drug's efficacy but also suggest its potential to significantly contribute to the prevention of HIV transmission among DrugUsers.
 
-Additionally, a p-value of 1.242 reveals a substantial statistical difference in the numerical breakdown of the data, further supporting the conclusion that the drug has a significant impact on the measured outcomes.
+Additionally, a p-value of .0000001242 reveals a substantial statistical difference because the number is so low it is something that we should pay attention too. In the numerical breakdown of the data, further supporting the conclusion that the drug has a significant impact on the measured outcomes.
 
 
 
