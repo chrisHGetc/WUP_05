@@ -1,7 +1,7 @@
 ---
 title: "Aides Drug"
 author: "Chris Gonzalez"
-date: "June 14, 2023"
+date: "June 21, 2023"
 output: html_document
 ---
 
@@ -37,7 +37,7 @@ Through this investigation, we can gain insights into the potential impact of th
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method. Discuss what data manipulations may be needed for example subsetting or other binning procedures and what sort of graphical displays and inferential tools will be used!-->
 
-The purpose of the present study is to investigate the potential efficacy of TriUmpsal as a drug for preventing AIDS. To facilitate this analysis, a box plot will be utilized as a visual tool to explore any potential relationship between the use of the drug TriUmpsal and a placebo as the control in preventing aids. Additionally, numerical data and inferential techniques will be employed to further analyze and interpret the findings, aiming to determine if TriUmpsal exhibits any correlation with AIDS prevention.
+The objective of the current study is to evaluate the potential effectiveness of TriUmpsal as a preventative drug for AIDS among drug users. To accomplish this, the filter command will be employed to isolate the data specifically related to drug users. Using coding techniques, such as ggplot, a box plot will be generated to visually assess any potential relationship between the administration of TriUmpsal and a placebo (serving as the control) in preventing AIDS among drug users.Moreover, numerical data will be extracted through appropriate coding, allowing for further quantitative analysis. Additionally, inferential techniques will be applied to the data using relevant coding methods to explore and interpret the findings. The aim is to determine whether there exists a statistically significant correlation between the use of TriUmpsal and AIDS prevention in the context of drug users.
 
 # Results
 
@@ -124,7 +124,7 @@ Furthermore, when examining the non-infected individuals, a higher percentage (9
 
 To enhance data analysis and visualization, bar charts can be utilized to provide a clearer depiction of the infection rates and highlight the notable disparities between the drug and placebo groups. These findings not only demonstrate the drug's efficacy but also suggest its potential to significantly contribute to the prevention of HIV transmission among DrugUsers.
 
-Additionally, a p-value of .0000001242 reveals a substantial statistical difference because the number is so low it is something that we should pay attention too. In the numerical breakdown of the data, further supporting the conclusion that the drug has a significant impact on the measured outcomes.
+Additionally, a p-value of .0000001242 reveals a substantial statistical difference because the number is so low it is something that we should pay attention too. In the numerical breakdown of the data, further supporting the conclusion that the drug has a significant impact on preventing aids in the group study of drug users.
 
 
 
